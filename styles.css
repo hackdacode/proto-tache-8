@@ -1,0 +1,306 @@
+body{
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, 
+                "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+.bootstrap-title{
+    font-family: 'Merienda', cursive !important;
+    color: #000293;
+}
+
+.entete{
+    padding-top: 150px;
+}
+
+#sec1{
+    background-image: url(fond.jpg) !important;
+    background-repeat: no-repeat;
+    height: 700px;
+    margin-bottom: 100px !important;
+    margin-top: -50px;
+}
+.container1{
+    margin-top: 100px !important;
+    color: rgb(255, 255, 255) !important;
+}
+.meeting{
+    font-size: 3.5rem;
+    font-weight: 900 !important;
+}
+.btn1{
+    font-weight: bold !important;
+    height: 70px !important;
+    width: 200px;
+    background-color: #004c93 !important;
+    border: none !important;
+    font-size: 1.2rem !important;
+}
+
+.navbar-expand-md{
+    background-color: rgb(76, 76, 77);
+}
+/*-----------------SERVICES-------------*/
+
+.service, .portfolio, .team, .about{
+    font-weight: 800 !important;
+}
+
+.para-service{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.8rem;
+}
+
+.service1 img{
+padding-top: 25px;
+padding-left: 26px;
+}
+.service2 img{
+    padding-top: 25px;
+    padding-left: 26px;
+}
+.service3 img{
+    padding-top: 25px;
+    padding-left: 26px;
+}
+.service1{
+    background-color: #46b8af;
+    height: 120px;
+    width: 120px !important;
+    border-radius: 100%;
+}
+.service2{
+    background-color:  #46b8af;
+    height: 120px;
+    width: 120px !important;
+    border-radius: 100%;
+}
+.service3{
+    background-color:  #46b8af;
+    height: 120px;
+    width: 120px !important;
+    border-radius: 100%;
+}
+
+.row-service3{
+    display: flex;
+    flex-direction: row;
+}
+
+.col1, .col2, .col3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.col1 p, .col2 p, .col3 p{
+    font-size: 0.8rem !important;
+    color: rgba(0, 0, 0, 0.425) !important;
+}
+
+
+/* ----------------PORTFOLIO------------- */
+
+.card2{
+     cursor: pointer;
+}
+
+
+/* -------------MODAL------------ */
+.modal-content .btn-close{
+    align-self: flex-end;
+    width: 50px !important;
+    height: 50px !important;
+}
+.para1-modal{
+    font-size: 0.8rem !important;
+    color: rgba(0, 0, 0, 0.404) !important;
+}
+.para-modal{
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.404);
+}
+
+/* ----------------TIMELINE--------------- */
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+.box-timeline{
+    width: 100%;
+    position: relative ;
+    padding: 80px 0 250px 0;
+    height: 1300px;
+}
+.ligne{
+    width: 2px;
+    margin: 0 auto;
+    background: gray;
+    height: 1230px;
+}
+.r5{
+    text-align: center;
+}
+.rond{
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    border: 10px solid gray !important;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.r1{top: 80px;}
+.r2{top: 386px;}
+.r3{top: 692px;}
+.r4{top: 1000px;}
+.r5{top: 1306px;}
+.rond img{
+    border-radius: 100%;
+}
+
+.box{
+    width: 400px;
+    min-height: 200px;
+    padding: 20px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.b1{top: 80px;left: calc(50% - 270px); text-align: right;}
+.b2{top: 386px; left: calc(50% + 270px)}
+.b3{top: 692px; left: calc(50% - 270px); text-align: right;}
+.b4{top: 1000px;left: calc(50% + 270px)}
+
+@media screen and (min-width:768px) and (max-width:1000px){
+    .box{
+        width: 300px;
+    }
+
+    .b1{top: 80px;left: calc(50% - 200px); text-align: right; padding-right: 50px !important;}
+.b2{top: 386px; left: calc(50% + 200px); padding-left: 50px; }
+.b3{top: 692px; left: calc(50% - 200px); padding-right: 50px !important; text-align: right;}
+.b4{top: 1000px;left: calc(50% + 200px); padding-left: 50px;}
+}
+
+@media screen and (min-width:425px) and (max-width:767px){
+    .box{
+        width:250px;
+        font-size: 00.9rem;
+    }
+
+    .b1{top: 80px;left: calc(50% + 90px); text-align: left;}
+.b2{top: 386px; left: calc(50% + 90px); }
+.b3{top: 692px; left: calc(50% + 90px); text-align: left;}
+.b4{top: 1000px;left: calc(50% + 90px);}
+
+.ligne{
+    position: absolute;
+    left: 22%;
+}
+
+.rond{
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    border: 10px solid gray;
+    position: absolute;
+    left: 23%;
+    transform: translate(-53%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+}
+
+@media screen and (max-width:425px){
+    .box{
+        width:200px;
+        font-size: 0.6rem;
+    }
+
+    .b1{top: 80px;left: calc(50% + 45px); text-align: left;}
+.b2{top: 386px; left: calc(50% + 45px); }
+.b3{top: 692px; left: calc(50% + 45px); text-align: left;}
+.b4{top: 1000px;left: calc(50% + 45px);}
+
+
+
+.r5{font-size: 0.7rem;}
+
+.ligne{
+    position: absolute;
+    left: 20%;
+}
+
+.rond{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 10px solid gray;
+    position: absolute;
+    left: 21%;
+    transform: translate(-53%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rond img {
+    width: 70px;
+    height: 70px;
+}
+
+
+
+}
+/*--------------TEAM------------------ */
+
+.coach1{
+    width: 150px;
+    height: 150px;
+    border: 5px solid gray;
+    border-radius: 100%;
+    background-image: url(ava1.png);
+    background-size: cover;
+}
+
+.col-coach{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ctnr-team{
+    margin-top: 200px;
+}
+
+.col-coach2, .col-coach1{
+    margin-bottom: 30px !important;
+}
+
+/* ------------Entreprises------------- */
+
+
+/* ---------------CONTACT----------------- */
+
+.cntnr-cntct{
+    background-image: url(monde.jpg) !important;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width:767px){
+    .cntnr-cntct{
+         height: 850px;
+    }
+}
+
+
